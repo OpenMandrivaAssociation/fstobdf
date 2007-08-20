@@ -33,6 +33,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/fstobdf
-%{_mandir}/man1/fstobdf.1x.bz2
+%{_mandir}/man1/fstobdf.*
 
 
