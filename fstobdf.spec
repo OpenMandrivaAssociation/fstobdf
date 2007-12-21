@@ -5,6 +5,7 @@ Summary: Generate BDF font from X font server
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
+BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libfs-devel >= 1.0.0
 BuildRequires: libx11-devel >= 1.0.0
