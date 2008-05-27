@@ -1,6 +1,6 @@
 Name: fstobdf
-Version: 1.0.2
-Release: %mkrel 5
+Version: 1.0.3
+Release: %mkrel 1
 Summary: Generate BDF font from X font server
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
