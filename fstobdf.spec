@@ -9,12 +9,15 @@ License:	MIT
 BuildRequires:	libfs-devel >= 1.0.0
 BuildRequires:	libx11-devel >= 1.0.0
 BuildRequires:	x11-util-macros >= 1.0.1
+Patch0:		fstobdf-aarch64.patch
 
 %description
 The fstobdf program reads a font from a font server and generate BDF font.
 
 %prep
 %setup -q
+#chmod 777 config.guess config.sub
+%apply_patches
 
 %build
 %configure2_5x	\
