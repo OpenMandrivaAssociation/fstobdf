@@ -6,7 +6,6 @@ Group:		Development/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org/
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
-Patch0:		fstobdf-aarch64.patch
 
 BuildRequires:	pkgconfig(libfs)
 BuildRequires:	pkgconfig(x11)
@@ -17,8 +16,6 @@ The fstobdf program reads a font from a font server and generate BDF font.
 
 %prep
 %setup -q
-#chmod 777 config.guess config.sub
-%apply_patches
 
 %build
 %configure	\
