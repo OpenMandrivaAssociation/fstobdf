@@ -1,7 +1,7 @@
 Summary:	Generate BDF font from X font server
 Name:		fstobdf
-Version:	1.0.7
-Release:	2
+Version:	1.0.8
+Release:	1
 Group:		Development/X11
 License:	MIT
 Url:		https://xorg.freedesktop.org/
